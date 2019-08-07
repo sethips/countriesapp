@@ -5,7 +5,7 @@ import numeral from 'numeral';
 import 'numeral/locales';
 
 
-const Country = ({ name, region, capitalCity, flag, population }) => {
+const Country = ({ name, region, capitalCity, flag, population, area }) => {
 
 	let [fontColor, bgColor] = checkCountryCardColor(region);
 	
@@ -23,14 +23,19 @@ const Country = ({ name, region, capitalCity, flag, population }) => {
 		  </dl>
 		  <dl className="f6 lh-title mv2">
 		    <dt className="dib b">Population: </dt>
-		    <dd className="dib ml0 pl2"> {formatPopulation(population)}</dd>
+		    <dd className="dib ml0 pl2"> {formatNumber(population)}</dd>
 		  </dl>		  
+		  <dl className="f6 lh-title mv2">
+		    <dt className="dib b">Area: </dt>
+		    <dd className="dib ml0 pl2"> {formatNumber(area)}</dd>
+		  </dl>		  		  
 		</div>
 	);
 }
 
-const formatPopulation = (pop) => {
-	return numeral(pop).format('0,0');
+const formatNumber = (num) => {
+	numeral.locale('pt-br');
+	return numeral(num).format('0,0');
 }
 
 const checkCountryCardColor = (regionName) => {
