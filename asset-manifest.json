@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/countriesapp/static/css/main.b9b0ddc6.chunk.css",
+    "main.js": "/countriesapp/static/js/main.0890ee5e.chunk.js",
+    "main.js.map": "/countriesapp/static/js/main.0890ee5e.chunk.js.map",
+    "runtime~main.js": "/countriesapp/static/js/runtime~main.3b104c4a.js",
+    "runtime~main.js.map": "/countriesapp/static/js/runtime~main.3b104c4a.js.map",
+    "static/css/2.31dafeb2.chunk.css": "/countriesapp/static/css/2.31dafeb2.chunk.css",
+    "static/js/2.bb8397d8.chunk.js": "/countriesapp/static/js/2.bb8397d8.chunk.js",
+    "static/js/2.bb8397d8.chunk.js.map": "/countriesapp/static/js/2.bb8397d8.chunk.js.map",
+    "index.html": "/countriesapp/index.html",
+    "precache-manifest.ab7133454a300ab1b2b7b9f926b71b46.js": "/countriesapp/precache-manifest.ab7133454a300ab1b2b7b9f926b71b46.js",
+    "service-worker.js": "/countriesapp/service-worker.js",
+    "static/css/2.31dafeb2.chunk.css.map": "/countriesapp/static/css/2.31dafeb2.chunk.css.map",
+    "static/css/main.b9b0ddc6.chunk.css.map": "/countriesapp/static/css/main.b9b0ddc6.chunk.css.map"
+  }
+}
