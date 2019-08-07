@@ -1,0 +1,10 @@
+.flag {
+	padding-right: 12px;
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;	
+}
+
+#h4 {
+	font-family: 'Roboto', sans-serif;	
+}
